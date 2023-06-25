@@ -34,7 +34,13 @@ Open App
     Call Method    ${options}    add_experimental_option    prefs    ${prefs}
     
     Open Browser    ${url}    chrome    options=${options}
+    Wait Element    xpath=//img[@alt='Ameps']
+    Sleep    5
 
+    ${status}    Run Keyword And Return Status   Wait Element     xpath=//*/text()[normalize-space(.)='Aceitar tudo']/parent::*    5
+    IF  ${status}
+        Click    xpath=//*/text()[normalize-space(.)='Aceitar tudo']/parent::*
+    END
 
 Fechar Navegador
     Close Browser

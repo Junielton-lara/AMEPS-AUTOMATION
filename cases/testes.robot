@@ -10,14 +10,14 @@ Test Teardown  Evidênciar teste
 
 Validação funcionamento basico AMEPS - Home
     Dado que acesso a home do site
-    Então os elemntos da home devera ser carregados com sucesso
+    Então os elementos da home devera ser carregados com sucesso
 
 
 
-# Validação funcionamento basico AMEPS - Pesquisa com filtro
-#     Dado que acesso a home do site
-#     E realizo uma pesquisa com filtro
-#     Então a pesquisa devera ser realizada com sucesso
+Validação funcionamento basico AMEPS - Pesquisa com filtro
+    Dado que acesso a home do site
+    E realizo uma pesquisa com filtro
+    Então a pesquisa devera ser realizada com sucesso
 
 # Validação funcionamento basico AMEPS - Pesquisa sem filtro
 #     Dado que acesso a home do site
